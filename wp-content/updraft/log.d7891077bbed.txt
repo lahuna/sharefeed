@@ -1,0 +1,1140 @@
+0000.001 (0) Opened log file at time: Mon, 14 Sep 2020 15:53:47 +0000 on http://www.ndcco.org
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 27.6M | 30M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.100 (0) Free space on disk containing Updraft's temporary directory: 113710.1 MB
+0000.102 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.103 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.134 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1599020728, seconds_ago=1078099)
+0000.135 (0) Semaphore (fd, ndck_options) was stuck, set lock time to 2020-09-14 15:53:47
+0000.135 (0) Semaphore (fd, ndck_options) reset to 1
+0000.136 (0) Set semaphore last lock (fd) time to 2020-09-14 15:53:47
+0000.136 (0) Semaphore lock (fd) complete
+0000.138 (0) Backup run: resumption=0, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (0s ago), job type=backup
+0000.139 (0) Scheduling a resumption (1) after 300 seconds (1600099127) in case this run gets aborted
+0000.171 (0) Checking if we have a zip executable available
+0000.171 (0) Testing: /usr/bin/zip
+0000.177 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.178 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.178 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.179 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.179 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.183 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.184 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.204 (0) Working binary zip found: /usr/bin/zip
+0000.205 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.205 (0) Creation of backups of directories: beginning
+0000.207 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.900 (0) Total entities for the zip file: 1930 directories, 11862 files (0 skipped as non-modified), 171.1 MB
+0000.904 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.906 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.909 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.911 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.914 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.914 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 11862 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0005.063 (0) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: size is now: 0.90 MB
+0005.066 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 600 files added (on-disk size: 897.4 KB)
+0005.069 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 700 files added (on-disk size: 897.4 KB)
+0005.071 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 800 files added (on-disk size: 897.4 KB)
+0005.074 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 900 files added (on-disk size: 897.4 KB)
+0005.077 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1000 files added (on-disk size: 897.4 KB)
+0005.078 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 11862 files batched, 501 (1002) added so far); re-opening (prior size: 897.4 KB)
+0008.135 (0) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: size is now: 1.40 MB
+0008.141 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1100 files added (on-disk size: 1470.1 KB)
+0008.145 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1200 files added (on-disk size: 1470.1 KB)
+0008.150 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1300 files added (on-disk size: 1470.1 KB)
+0008.154 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1400 files added (on-disk size: 1470.1 KB)
+0008.157 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1500 files added (on-disk size: 1470.1 KB)
+0008.158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 11862 files batched, 501 (1503) added so far); re-opening (prior size: 1470.1 KB)
+0011.947 (0) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: size is now: 4.20 MB
+0011.951 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1600 files added (on-disk size: 4313.1 KB)
+0011.953 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1700 files added (on-disk size: 4313.1 KB)
+0011.956 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1800 files added (on-disk size: 4313.1 KB)
+0011.958 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1900 files added (on-disk size: 4313.1 KB)
+0011.960 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2000 files added (on-disk size: 4313.1 KB)
+0011.961 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 11862 files batched, 501 (2004) added so far); re-opening (prior size: 4313.1 KB)
+0016.165 (0) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: size is now: 7.40 MB
+0016.169 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2100 files added (on-disk size: 7540.1 KB)
+0016.171 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2200 files added (on-disk size: 7540.1 KB)
+0016.174 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2300 files added (on-disk size: 7540.1 KB)
+0016.176 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2400 files added (on-disk size: 7540.1 KB)
+0016.178 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2500 files added (on-disk size: 7540.1 KB)
+0016.179 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 11862 files batched, 501 (2505) added so far); re-opening (prior size: 7540.1 KB)
+0018.791 (0) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: size is now: 10.70 MB
+0018.795 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2600 files added (on-disk size: 10986.1 KB)
+0018.799 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2700 files added (on-disk size: 10986.1 KB)
+0018.804 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2800 files added (on-disk size: 10986.1 KB)
+0018.808 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2900 files added (on-disk size: 10986.1 KB)
+0018.812 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3000 files added (on-disk size: 10986.1 KB)
+0018.813 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 MB, 11862 files batched, 501 (3006) added so far); re-opening (prior size: 10986.1 KB)
+0022.484 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3100 files added (on-disk size: 12370 KB)
+0022.487 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3200 files added (on-disk size: 12370 KB)
+0022.490 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3300 files added (on-disk size: 12370 KB)
+0022.492 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3400 files added (on-disk size: 12370 KB)
+0022.494 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3500 files added (on-disk size: 12370 KB)
+0022.495 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.7 MB, 11862 files batched, 501 (3507) added so far); re-opening (prior size: 12370 KB)
+0029.187 (0) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: size is now: 19.50 MB
+0029.191 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3600 files added (on-disk size: 20000.6 KB)
+0029.193 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3700 files added (on-disk size: 20000.6 KB)
+0029.196 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3800 files added (on-disk size: 20000.6 KB)
+0029.199 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3900 files added (on-disk size: 20000.6 KB)
+0029.201 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4000 files added (on-disk size: 20000.6 KB)
+0029.202 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 11862 files batched, 501 (4008) added so far); re-opening (prior size: 20000.6 KB)
+0034.761 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4100 files added (on-disk size: 21974.8 KB)
+0034.763 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4200 files added (on-disk size: 21974.8 KB)
+0034.765 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4300 files added (on-disk size: 21974.8 KB)
+0034.767 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4400 files added (on-disk size: 21974.8 KB)
+0034.770 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4500 files added (on-disk size: 21974.8 KB)
+0034.770 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.9 MB, 11862 files batched, 501 (4509) added so far); re-opening (prior size: 21974.8 KB)
+0040.317 (0) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: size is now: 26.40 MB
+0040.321 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4600 files added (on-disk size: 27075 KB)
+0040.324 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4700 files added (on-disk size: 27075 KB)
+0040.326 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4800 files added (on-disk size: 27075 KB)
+0040.329 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4900 files added (on-disk size: 27075 KB)
+0040.331 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5000 files added (on-disk size: 27075 KB)
+0040.332 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 11862 files batched, 501 (5010) added so far); re-opening (prior size: 27075 KB)
+0046.773 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5100 files added (on-disk size: 30129.5 KB)
+0046.788 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5200 files added (on-disk size: 30129.5 KB)
+0046.790 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5300 files added (on-disk size: 30129.5 KB)
+0046.793 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5400 files added (on-disk size: 30129.5 KB)
+0046.795 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5500 files added (on-disk size: 30129.5 KB)
+0046.818 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 11862 files batched, 501 (5511) added so far); re-opening (prior size: 30129.5 KB)
+0053.073 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5600 files added (on-disk size: 32265.1 KB)
+0053.076 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5700 files added (on-disk size: 32265.1 KB)
+0053.078 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5800 files added (on-disk size: 32265.1 KB)
+0053.081 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5900 files added (on-disk size: 32265.1 KB)
+0053.083 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6000 files added (on-disk size: 32265.1 KB)
+0053.084 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.3 MB, 11862 files batched, 501 (6012) added so far); re-opening (prior size: 32265.1 KB)
+0061.298 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6100 files added (on-disk size: 35959.9 KB)
+0061.301 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6200 files added (on-disk size: 35959.9 KB)
+0061.303 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6300 files added (on-disk size: 35959.9 KB)
+0061.306 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6400 files added (on-disk size: 35959.9 KB)
+0061.309 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6500 files added (on-disk size: 35959.9 KB)
+0061.309 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 11862 files batched, 501 (6513) added so far); re-opening (prior size: 35959.9 KB)
+0067.794 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6600 files added (on-disk size: 36668 KB)
+0067.797 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6700 files added (on-disk size: 36668 KB)
+0067.800 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6800 files added (on-disk size: 36668 KB)
+0067.803 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6900 files added (on-disk size: 36668 KB)
+0067.805 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7000 files added (on-disk size: 36668 KB)
+0067.806 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 11862 files batched, 501 (7014) added so far); re-opening (prior size: 36668 KB)
+0073.942 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7100 files added (on-disk size: 38686.9 KB)
+0073.945 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7200 files added (on-disk size: 38686.9 KB)
+0073.947 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7300 files added (on-disk size: 38686.9 KB)
+0073.950 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7400 files added (on-disk size: 38686.9 KB)
+0073.953 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7500 files added (on-disk size: 38686.9 KB)
+0073.953 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.4 MB, 11862 files batched, 501 (7515) added so far); re-opening (prior size: 38686.9 KB)
+0081.061 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7600 files added (on-disk size: 43013 KB)
+0081.064 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7700 files added (on-disk size: 43013 KB)
+0081.067 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7800 files added (on-disk size: 43013 KB)
+0081.070 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7900 files added (on-disk size: 43013 KB)
+0081.073 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8000 files added (on-disk size: 43013 KB)
+0081.074 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 11862 files batched, 501 (8016) added so far); re-opening (prior size: 43013 KB)
+0088.848 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8100 files added (on-disk size: 43739.9 KB)
+0088.851 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8200 files added (on-disk size: 43739.9 KB)
+0088.854 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8300 files added (on-disk size: 43739.9 KB)
+0088.856 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8400 files added (on-disk size: 43739.9 KB)
+0088.859 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8500 files added (on-disk size: 43739.9 KB)
+0088.859 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 11862 files batched, 501 (8517) added so far); re-opening (prior size: 43739.9 KB)
+0095.376 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8600 files added (on-disk size: 48731.5 KB)
+0095.379 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8700 files added (on-disk size: 48731.5 KB)
+0095.381 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8800 files added (on-disk size: 48731.5 KB)
+0095.384 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8900 files added (on-disk size: 48731.5 KB)
+0095.387 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9000 files added (on-disk size: 48731.5 KB)
+0095.388 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.3 MB, 11862 files batched, 501 (9018) added so far); re-opening (prior size: 48731.5 KB)
+0102.535 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9100 files added (on-disk size: 50878.9 KB)
+0102.538 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9200 files added (on-disk size: 50878.9 KB)
+0102.540 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9300 files added (on-disk size: 50878.9 KB)
+0102.543 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9400 files added (on-disk size: 50878.9 KB)
+0102.545 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9500 files added (on-disk size: 50878.9 KB)
+0102.546 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.9 MB, 11862 files batched, 501 (9519) added so far); re-opening (prior size: 50878.9 KB)
+0110.337 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9600 files added (on-disk size: 53768 KB)
+0110.340 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9700 files added (on-disk size: 53768 KB)
+0110.343 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9800 files added (on-disk size: 53768 KB)
+0110.346 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9900 files added (on-disk size: 53768 KB)
+0110.349 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10000 files added (on-disk size: 53768 KB)
+0110.350 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 11862 files batched, 501 (10020) added so far); re-opening (prior size: 53768 KB)
+0118.330 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10100 files added (on-disk size: 55430.9 KB)
+0118.333 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10200 files added (on-disk size: 55430.9 KB)
+0118.336 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10300 files added (on-disk size: 55430.9 KB)
+0118.339 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10400 files added (on-disk size: 55430.9 KB)
+0118.342 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10500 files added (on-disk size: 55430.9 KB)
+0118.343 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 11862 files batched, 501 (10521) added so far); re-opening (prior size: 55430.9 KB)
+0124.664 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10600 files added (on-disk size: 57032 KB)
+0124.666 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10700 files added (on-disk size: 57032 KB)
+0124.669 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10800 files added (on-disk size: 57032 KB)
+0124.672 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10900 files added (on-disk size: 57032 KB)
+0124.674 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11000 files added (on-disk size: 57032 KB)
+0124.675 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 11862 files batched, 501 (11022) added so far); re-opening (prior size: 57032 KB)
+0132.523 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11100 files added (on-disk size: 59995.4 KB)
+0132.525 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11200 files added (on-disk size: 59995.4 KB)
+0132.528 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11300 files added (on-disk size: 59995.4 KB)
+0132.531 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11400 files added (on-disk size: 59995.4 KB)
+0132.533 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11500 files added (on-disk size: 59995.4 KB)
+0132.534 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 11862 files batched, 501 (11523) added so far); re-opening (prior size: 59995.4 KB)
+0140.069 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11600 files added (on-disk size: 62398 KB)
+0140.071 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11700 files added (on-disk size: 62398 KB)
+0140.074 (0) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11800 files added (on-disk size: 62398 KB)
+4690.090 (1) Opened log file at time: Mon, 14 Sep 2020 17:11:57 +0000 on https://www.ndcco.org
+4690.091 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.5M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+4690.177 (1) Free space on disk containing Updraft's temporary directory: 113812.4 MB
+4690.179 (1) Backup run: resumption=1, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (4690s ago), job type=backup, previous check-in=140.1s
+4690.179 (1) Long time past since expected resumption time: approx expected=1600099267.6, now=1600103517.5, diff=4249.9
+4690.180 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+4690.181 (1) Scheduling a resumption (2) after 300 seconds (1600103817) in case this run gets aborted
+4690.199 (1) Checking if we have a zip executable available
+4690.200 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+4690.200 (1) Creation of backups of directories: had begun; will resume
+4690.201 (1) Beginning creation of dump of plugins (split every: 400 MB)
+4690.202 (1) File exists (/home/jsmt/public_html/ndcco.org/wp-content/updraft/backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1600098976, time_now=1600103517, diff=4541)
+4690.400 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: Zip file already exists, with 11862 files
+4690.638 (1) Total entities for the zip file: 1930 directories, 11862 files (0 skipped as non-modified), 171.1 MB
+4690.641 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 100 files added (on-disk size: 66412.7 KB)
+4690.642 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 200 files added (on-disk size: 66412.7 KB)
+4690.643 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 300 files added (on-disk size: 66412.7 KB)
+4690.644 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 400 files added (on-disk size: 66412.7 KB)
+4690.646 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 500 files added (on-disk size: 66412.7 KB)
+4690.647 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 600 files added (on-disk size: 66412.7 KB)
+4690.648 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 700 files added (on-disk size: 66412.7 KB)
+4690.649 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 800 files added (on-disk size: 66412.7 KB)
+4690.650 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 900 files added (on-disk size: 66412.7 KB)
+4690.651 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1000 files added (on-disk size: 66412.7 KB)
+4690.665 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1100 files added (on-disk size: 66412.7 KB)
+4690.666 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1200 files added (on-disk size: 66412.7 KB)
+4690.667 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1300 files added (on-disk size: 66412.7 KB)
+4690.668 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1400 files added (on-disk size: 66412.7 KB)
+4690.669 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1500 files added (on-disk size: 66412.7 KB)
+4690.670 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1600 files added (on-disk size: 66412.7 KB)
+4690.671 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1700 files added (on-disk size: 66412.7 KB)
+4690.672 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1800 files added (on-disk size: 66412.7 KB)
+4690.674 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 1900 files added (on-disk size: 66412.7 KB)
+4690.675 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2000 files added (on-disk size: 66412.7 KB)
+4690.676 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2100 files added (on-disk size: 66412.7 KB)
+4690.677 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2200 files added (on-disk size: 66412.7 KB)
+4690.678 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2300 files added (on-disk size: 66412.7 KB)
+4690.679 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2400 files added (on-disk size: 66412.7 KB)
+4690.681 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2500 files added (on-disk size: 66412.7 KB)
+4690.682 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2600 files added (on-disk size: 66412.7 KB)
+4690.683 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2700 files added (on-disk size: 66412.7 KB)
+4690.684 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2800 files added (on-disk size: 66412.7 KB)
+4690.685 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 2900 files added (on-disk size: 66412.7 KB)
+4690.686 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3000 files added (on-disk size: 66412.7 KB)
+4690.688 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3100 files added (on-disk size: 66412.7 KB)
+4690.689 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3200 files added (on-disk size: 66412.7 KB)
+4690.690 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3300 files added (on-disk size: 66412.7 KB)
+4690.691 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3400 files added (on-disk size: 66412.7 KB)
+4690.692 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3500 files added (on-disk size: 66412.7 KB)
+4690.694 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3600 files added (on-disk size: 66412.7 KB)
+4690.695 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3700 files added (on-disk size: 66412.7 KB)
+4690.696 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3800 files added (on-disk size: 66412.7 KB)
+4690.697 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 3900 files added (on-disk size: 66412.7 KB)
+4690.698 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4000 files added (on-disk size: 66412.7 KB)
+4690.714 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4100 files added (on-disk size: 66412.7 KB)
+4690.715 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4200 files added (on-disk size: 66412.7 KB)
+4690.716 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4300 files added (on-disk size: 66412.7 KB)
+4690.717 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4400 files added (on-disk size: 66412.7 KB)
+4690.718 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4500 files added (on-disk size: 66412.7 KB)
+4690.719 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4600 files added (on-disk size: 66412.7 KB)
+4690.720 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4700 files added (on-disk size: 66412.7 KB)
+4690.722 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4800 files added (on-disk size: 66412.7 KB)
+4690.723 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 4900 files added (on-disk size: 66412.7 KB)
+4690.724 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5000 files added (on-disk size: 66412.7 KB)
+4690.725 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5100 files added (on-disk size: 66412.7 KB)
+4690.727 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5200 files added (on-disk size: 66412.7 KB)
+4690.728 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5300 files added (on-disk size: 66412.7 KB)
+4690.729 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5400 files added (on-disk size: 66412.7 KB)
+4690.730 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5500 files added (on-disk size: 66412.7 KB)
+4690.731 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5600 files added (on-disk size: 66412.7 KB)
+4690.732 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5700 files added (on-disk size: 66412.7 KB)
+4690.733 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5800 files added (on-disk size: 66412.7 KB)
+4690.734 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 5900 files added (on-disk size: 66412.7 KB)
+4690.735 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6000 files added (on-disk size: 66412.7 KB)
+4690.737 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6100 files added (on-disk size: 66412.7 KB)
+4690.738 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6200 files added (on-disk size: 66412.7 KB)
+4690.739 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6300 files added (on-disk size: 66412.7 KB)
+4690.740 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6400 files added (on-disk size: 66412.7 KB)
+4690.742 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6500 files added (on-disk size: 66412.7 KB)
+4690.743 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6600 files added (on-disk size: 66412.7 KB)
+4690.744 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6700 files added (on-disk size: 66412.7 KB)
+4690.745 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6800 files added (on-disk size: 66412.7 KB)
+4690.746 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 6900 files added (on-disk size: 66412.7 KB)
+4690.748 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7000 files added (on-disk size: 66412.7 KB)
+4690.749 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7100 files added (on-disk size: 66412.7 KB)
+4690.750 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7200 files added (on-disk size: 66412.7 KB)
+4690.751 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7300 files added (on-disk size: 66412.7 KB)
+4690.752 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7400 files added (on-disk size: 66412.7 KB)
+4690.754 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7500 files added (on-disk size: 66412.7 KB)
+4690.755 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7600 files added (on-disk size: 66412.7 KB)
+4690.756 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7700 files added (on-disk size: 66412.7 KB)
+4690.757 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7800 files added (on-disk size: 66412.7 KB)
+4690.758 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 7900 files added (on-disk size: 66412.7 KB)
+4690.760 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8000 files added (on-disk size: 66412.7 KB)
+4690.761 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8100 files added (on-disk size: 66412.7 KB)
+4690.762 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8200 files added (on-disk size: 66412.7 KB)
+4690.764 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8300 files added (on-disk size: 66412.7 KB)
+4690.765 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8400 files added (on-disk size: 66412.7 KB)
+4690.766 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8500 files added (on-disk size: 66412.7 KB)
+4690.767 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8600 files added (on-disk size: 66412.7 KB)
+4690.768 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8700 files added (on-disk size: 66412.7 KB)
+4690.769 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8800 files added (on-disk size: 66412.7 KB)
+4690.770 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 8900 files added (on-disk size: 66412.7 KB)
+4690.771 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9000 files added (on-disk size: 66412.7 KB)
+4690.773 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9100 files added (on-disk size: 66412.7 KB)
+4690.774 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9200 files added (on-disk size: 66412.7 KB)
+4690.775 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9300 files added (on-disk size: 66412.7 KB)
+4690.776 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9400 files added (on-disk size: 66412.7 KB)
+4690.777 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9500 files added (on-disk size: 66412.7 KB)
+4690.779 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9600 files added (on-disk size: 66412.7 KB)
+4690.780 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9700 files added (on-disk size: 66412.7 KB)
+4690.781 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9800 files added (on-disk size: 66412.7 KB)
+4690.782 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 9900 files added (on-disk size: 66412.7 KB)
+4690.783 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10000 files added (on-disk size: 66412.7 KB)
+4690.784 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10100 files added (on-disk size: 66412.7 KB)
+4690.785 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10200 files added (on-disk size: 66412.7 KB)
+4690.787 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10300 files added (on-disk size: 66412.7 KB)
+4690.788 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10400 files added (on-disk size: 66412.7 KB)
+4690.789 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10500 files added (on-disk size: 66412.7 KB)
+4690.790 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10600 files added (on-disk size: 66412.7 KB)
+4690.791 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10700 files added (on-disk size: 66412.7 KB)
+4690.792 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10800 files added (on-disk size: 66412.7 KB)
+4690.793 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 10900 files added (on-disk size: 66412.7 KB)
+4690.794 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11000 files added (on-disk size: 66412.7 KB)
+4690.796 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11100 files added (on-disk size: 66412.7 KB)
+4690.797 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11200 files added (on-disk size: 66412.7 KB)
+4690.798 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11300 files added (on-disk size: 66412.7 KB)
+4690.799 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11400 files added (on-disk size: 66412.7 KB)
+4690.800 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11500 files added (on-disk size: 66412.7 KB)
+4690.802 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11600 files added (on-disk size: 66412.7 KB)
+4690.803 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11700 files added (on-disk size: 66412.7 KB)
+4690.804 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip.tmp: 11800 files added (on-disk size: 66412.7 KB)
+4698.950 (1) Created plugins zip (0) - 66412.7 KB in 8.7 s (7634.8 KB/s) (sha1: fa8e5b4ebf65d8101d02d70353951c64ae70ea35, sha256: f4e95824441f25a9436c015d50abdbdaf59ad6e51e92a182b36a3a5222bee82b)
+4698.951 (1) Beginning creation of dump of themes (split every: 400 MB)
+4699.024 (1) Total entities for the zip file: 199 directories, 959 files (0 skipped as non-modified), 17.3 MB
+4699.027 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+4699.030 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+4699.032 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+4699.035 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+4699.037 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+4699.038 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.1 MB, 959 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+4700.961 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: size is now: 5.90 MB
+4700.964 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 600 files added (on-disk size: 6052.1 KB)
+4700.967 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 700 files added (on-disk size: 6052.1 KB)
+4700.969 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 800 files added (on-disk size: 6052.1 KB)
+4700.972 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: 900 files added (on-disk size: 6052.1 KB)
+4703.277 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip.tmp: size is now: 8.50 MB
+4703.379 (1) Created themes zip (0) - 8662.4 KB in 4.4 s (1978.4 KB/s) (sha1: a9fdca63209312b4a84c353f580d7671f3c7a583, sha256: 4d182b4637fd67e7465ed56799b949dff1053fc5a82e3c5d231da236b85a3f4f)
+4703.381 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+4703.381 (1) Looking for candidates to backup in: /home/jsmt/public_html/ndcco.org/wp-content/uploads
+4703.382 (1) finding files: file-manager: adding to list (1)
+4703.382 (1) finding files: revslider: adding to list (2)
+4703.383 (1) finding files: 2018: adding to list (3)
+4703.383 (1) finding files: mc4wp-debug-log.php: adding to list (4)
+4703.383 (1) finding files: 2019: adding to list (5)
+4703.384 (1) finding files: 2017: adding to list (6)
+4703.384 (1) finding files: GeoIP.dat: adding to list (7)
+4703.384 (1) finding files: woocommerce_uploads: adding to list (8)
+4703.385 (1) finding files: GeoIPv6.dat: adding to list (9)
+4703.385 (1) finding files: fw-backup: adding to list (10)
+4703.386 (1) finding files: js_composer: adding to list (11)
+4703.386 (1) finding files: wc-logs: adding to list (12)
+4703.387 (1) finding files: 2020: adding to list (13)
+4703.387 (1) Beginning creation of dump of uploads (split every: 400 MB)
+4703.485 (1) Total entities for the zip file: 447 directories, 2039 files (0 skipped as non-modified), 209.8 MB
+4703.489 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+4703.491 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+4703.494 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+4703.496 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+4703.499 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+4703.499 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 2039 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+4708.998 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: size is now: 4.80 MB
+4709.002 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 600 files added (on-disk size: 4921.2 KB)
+4709.004 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 700 files added (on-disk size: 4921.2 KB)
+4709.007 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 800 files added (on-disk size: 4921.2 KB)
+4709.009 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 900 files added (on-disk size: 4921.2 KB)
+4709.011 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 2039 files batched, 488 (989) added so far); re-opening (prior size: 4921.2 KB)
+4716.778 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: size is now: 30.10 MB
+4716.780 (1) A useful amount of data was added after this amount of zip processing: 8.2 s (normalised: 8.1 s, rate: 3163 KB/s)
+4716.781 (1) Performance is good - will increase the amount of data we attempt to batch (time=8.1503360271454, normalised_time=8.0936023275111, max_time=140, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+4716.782 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1000 files added (on-disk size: 30811.6 KB)
+4716.785 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1100 files added (on-disk size: 30811.6 KB)
+4716.787 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1200 files added (on-disk size: 30811.6 KB)
+4716.789 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1300 files added (on-disk size: 30811.6 KB)
+4716.792 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1400 files added (on-disk size: 30811.6 KB)
+4716.794 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (120.7 MB, 2039 files batched, 501 (1490) added so far); re-opening (prior size: 30811.6 KB)
+4751.286 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: size is now: 150.90 MB
+4751.293 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1500 files added (on-disk size: 154474.6 KB)
+4751.295 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1600 files added (on-disk size: 154474.6 KB)
+4751.298 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1700 files added (on-disk size: 154474.6 KB)
+4751.300 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1800 files added (on-disk size: 154474.6 KB)
+4751.302 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 1900 files added (on-disk size: 154474.6 KB)
+4751.305 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (55.7 MB, 2039 files batched, 501 (1991) added so far); re-opening (prior size: 154474.6 KB)
+4785.140 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: size is now: 204.90 MB
+4785.142 (1) Zip: backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip.tmp: 2000 files added (on-disk size: 209847.4 KB)
+4814.785 (1) Created uploads zip (0) - 213549.8 KB in 111.3 s (1918 KB/s) (sha1: aa69abaf6e177fdd0563410011234970120acb9b, sha256: d617a147187d677e8e4012feac9ae705bc26ca1ab99b15627561bf83e4e5d64d)
+4814.787 (1) Beginning backup of other directories found in the content directory (index: 0)
+4814.788 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+4814.788 (1) Looking for candidates to backup in: /home/jsmt/public_html/ndcco.org/wp-content
+4814.788 (1) finding files: advanced-cache.php: adding to list (1)
+4814.789 (1) finding files: updraft: skipping: this is the updraft directory
+4814.789 (1) finding files: cache: skipping: excluded by options
+4814.790 (1) finding files: uploads: skipping: this is the uploads directory
+4814.790 (1) finding files: tmp: adding to list (2)
+4814.791 (1) finding files: themes: skipping: this is the themes directory
+4814.791 (1) finding files: languages: adding to list (3)
+4814.791 (1) finding files: upgrade: skipping: excluded by options
+4814.792 (1) finding files: index.php: adding to list (4)
+4814.792 (1) finding files: w3tc-config: adding to list (5)
+4814.792 (1) finding files: logs: adding to list (6)
+4814.793 (1) finding files: plugins: skipping: this is the plugins directory
+4814.793 (1) finding files: wflogs: adding to list (7)
+4814.873 (1) Total entities for the zip file: 8 directories, 83 files (0 skipped as non-modified), 15.6 MB
+4817.588 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip.tmp: size is now: 5.00 MB
+4817.649 (1) Created others zip (0) - 5143.5 KB in 2.8 s (1832.8 KB/s) (sha1: d8ab85cbce9c95d2dab9ccd86c3354836349fb06, sha256: e5fd1bf913798195910c93cd883424c16543debaeb113a8ce52df5918774d6ee)
+4817.652 (1) Saving backup status to database (elements: 8)
+4817.657 (1) Resuming creation of database dump (WordPress DB)
+4817.658 (1) Testing potential mysqldump binary: /usr/bin/mysqldump
+4817.675 (1) Binary mysqldump: error (code: 2)
+4817.676 (1) Testing potential mysqldump binary: /bin/mysqldump
+4817.687 (1) Binary mysqldump: error (code: 2)
+4817.693 (1) Table ndck_options: Total expected rows (approximate): 595
+4817.743 (1) Table ndck_options: Total rows added: 602 in 0.05 seconds
+4817.744 (1) Table ndck_options: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_options.table.gz - 183.6 KB)
+4817.750 (1) Table ndck_users: Total expected rows (approximate): 4
+4817.751 (1) Table ndck_users: Total rows added: 4 in 0.00 seconds
+4817.752 (1) Table ndck_users: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_users.table.gz - 0.8 KB)
+4817.756 (1) Table ndck_usermeta: Total expected rows (approximate): 143
+4817.759 (1) Table ndck_usermeta: Total rows added: 144 in 0.00 seconds
+4817.760 (1) Table ndck_usermeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_usermeta.table.gz - 5.1 KB)
+4817.763 (1) Table ndck_commentmeta: Total expected rows (approximate): 10
+4817.765 (1) Table ndck_commentmeta: Total rows added: 10 in 0.00 seconds
+4817.766 (1) Table ndck_commentmeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_commentmeta.table.gz - 0.5 KB)
+4817.769 (1) Table ndck_comments: Total expected rows (approximate): 17
+4817.771 (1) Table ndck_comments: Total rows added: 17 in 0.00 seconds
+4817.772 (1) Table ndck_comments: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_comments.table.gz - 1.4 KB)
+4817.775 (1) Table ndck_links: Total expected rows (approximate): 0
+4817.776 (1) Table ndck_links: Total rows added: 0 in 0.00 seconds
+4817.777 (1) Table ndck_links: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_links.table.gz - 0.4 KB)
+4817.779 (1) Table ndck_postmeta: Total expected rows (approximate): 2410
+4817.818 (1) Table ndck_postmeta: Total rows added: 2732 in 0.04 seconds
+4817.819 (1) Table ndck_postmeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_postmeta.table.gz - 56.1 KB)
+4817.822 (1) Table ndck_posts: Total expected rows (approximate): 737
+4818.029 (1) Table ndck_posts: Total rows added: 1004 in 0.21 seconds
+4818.030 (1) Table ndck_posts: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_posts.table.gz - 200.7 KB)
+4818.070 (1) Table ndck_term_relationships: Total expected rows (approximate): 165
+4818.072 (1) Table ndck_term_relationships: Total rows added: 162 in 0.00 seconds
+4818.072 (1) Table ndck_term_relationships: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_term_relationships.table.gz - 0.8 KB)
+4818.075 (1) Table ndck_term_taxonomy: Total expected rows (approximate): 61
+4818.076 (1) Table ndck_term_taxonomy: Total rows added: 58 in 0.00 seconds
+4818.076 (1) Table ndck_term_taxonomy: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_term_taxonomy.table.gz - 0.9 KB)
+4818.080 (1) Table ndck_termmeta: Total expected rows (approximate): 22
+4818.081 (1) Table ndck_termmeta: Total rows added: 22 in 0.00 seconds
+4818.081 (1) Table ndck_termmeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_termmeta.table.gz - 0.6 KB)
+4818.084 (1) Table ndck_terms: Total expected rows (approximate): 58
+4818.085 (1) Table ndck_terms: Total rows added: 58 in 0.00 seconds
+4818.085 (1) Table ndck_terms: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_terms.table.gz - 1 KB)
+4818.088 (1) Table ndck_charitable_campaign_donations: Total expected rows (approximate): 231
+4818.091 (1) Table ndck_charitable_campaign_donations: Total rows added: 231 in 0.00 seconds
+4818.092 (1) Table ndck_charitable_campaign_donations: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_charitable_campaign_donations.table.gz - 2.6 KB)
+4818.095 (1) Table ndck_charitable_donors: Total expected rows (approximate): 198
+4818.097 (1) Table ndck_charitable_donors: Total rows added: 198 in 0.00 seconds
+4818.098 (1) Table ndck_charitable_donors: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_charitable_donors.table.gz - 5.8 KB)
+4818.103 (1) Table ndck_datalist: Total expected rows (approximate): 0
+4818.104 (1) Table ndck_datalist: Total rows added: 0 in 0.00 seconds
+4818.104 (1) Table ndck_datalist: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_datalist.table.gz - 0.3 KB)
+4818.107 (1) Table ndck_em_bookings: Total expected rows (approximate): 8
+4818.109 (1) Table ndck_em_bookings: Total rows added: 8 in 0.00 seconds
+4818.109 (1) Table ndck_em_bookings: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_bookings.table.gz - 0.9 KB)
+4818.112 (1) Table ndck_em_events: Total expected rows (approximate): 6
+4818.114 (1) Table ndck_em_events: Total rows added: 6 in 0.00 seconds
+4818.114 (1) Table ndck_em_events: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_events.table.gz - 1.4 KB)
+4818.117 (1) Table ndck_em_locations: Total expected rows (approximate): 2
+4818.118 (1) Table ndck_em_locations: Total rows added: 2 in 0.00 seconds
+4818.118 (1) Table ndck_em_locations: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_locations.table.gz - 0.6 KB)
+4818.121 (1) Table ndck_em_meta: Total expected rows (approximate): 0
+4818.122 (1) Table ndck_em_meta: Total rows added: 0 in 0.00 seconds
+4818.122 (1) Table ndck_em_meta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_meta.table.gz - 0.4 KB)
+4818.125 (1) Table ndck_em_tickets: Total expected rows (approximate): 6
+4818.126 (1) Table ndck_em_tickets: Total rows added: 6 in 0.00 seconds
+4818.127 (1) Table ndck_em_tickets: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_tickets.table.gz - 0.5 KB)
+4818.130 (1) Table ndck_em_tickets_bookings: Total expected rows (approximate): 8
+4818.131 (1) Table ndck_em_tickets_bookings: Total rows added: 8 in 0.00 seconds
+4818.132 (1) Table ndck_em_tickets_bookings: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_tickets_bookings.table.gz - 0.4 KB)
+4818.134 (1) Table ndck_give_customermeta: Total expected rows (approximate): 6
+4818.135 (1) Table ndck_give_customermeta: Total rows added: 6 in 0.00 seconds
+4818.136 (1) Table ndck_give_customermeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_customermeta.table.gz - 0.5 KB)
+4818.139 (1) Table ndck_give_customers: Total expected rows (approximate): 2
+4818.140 (1) Table ndck_give_customers: Total rows added: 2 in 0.00 seconds
+4818.140 (1) Table ndck_give_customers: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_customers.table.gz - 0.6 KB)
+4818.143 (1) Table ndck_give_donormeta: Total expected rows (approximate): 8
+4818.144 (1) Table ndck_give_donormeta: Total rows added: 8 in 0.00 seconds
+4818.145 (1) Table ndck_give_donormeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_donormeta.table.gz - 0.5 KB)
+4818.147 (1) Table ndck_give_donors: Total expected rows (approximate): 2
+4818.149 (1) Table ndck_give_donors: Total rows added: 3 in 0.00 seconds
+4818.149 (1) Table ndck_give_donors: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_donors.table.gz - 0.6 KB)
+4818.152 (1) Table ndck_give_formmeta: Total expected rows (approximate): 408
+4818.158 (1) Table ndck_give_formmeta: Total rows added: 444 in 0.01 seconds
+4818.159 (1) Table ndck_give_formmeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_formmeta.table.gz - 7.9 KB)
+4818.162 (1) Table ndck_give_logmeta: Total expected rows (approximate): 22
+4818.164 (1) Table ndck_give_logmeta: Total rows added: 24 in 0.00 seconds
+4818.164 (1) Table ndck_give_logmeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_logmeta.table.gz - 0.6 KB)
+4818.167 (1) Table ndck_give_logs: Total expected rows (approximate): 11
+4818.168 (1) Table ndck_give_logs: Total rows added: 12 in 0.00 seconds
+4818.169 (1) Table ndck_give_logs: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_logs.table.gz - 0.6 KB)
+4818.171 (1) Table ndck_give_paymentmeta: Total expected rows (approximate): 220
+4818.174 (1) Table ndck_give_paymentmeta: Total rows added: 236 in 0.00 seconds
+4818.175 (1) Table ndck_give_paymentmeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_paymentmeta.table.gz - 3.3 KB)
+4818.178 (1) Table ndck_give_sequential_ordering: Total expected rows (approximate): 0
+4818.179 (1) Table ndck_give_sequential_ordering: Total rows added: 0 in 0.00 seconds
+4818.179 (1) Table ndck_give_sequential_ordering: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_sequential_ordering.table.gz - 0.3 KB)
+4818.182 (1) Table ndck_newsletter: Total expected rows (approximate): 1
+4818.184 (1) Table ndck_newsletter: Total rows added: 1 in 0.00 seconds
+4818.185 (1) Table ndck_newsletter: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter.table.gz - 0.8 KB)
+4818.187 (1) Table ndck_newsletter_emails: Total expected rows (approximate): 0
+4818.189 (1) Table ndck_newsletter_emails: Total rows added: 1 in 0.00 seconds
+4818.189 (1) Table ndck_newsletter_emails: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter_emails.table.gz - 0.8 KB)
+4818.192 (1) Table ndck_newsletter_sent: Total expected rows (approximate): 0
+4818.193 (1) Table ndck_newsletter_sent: Total rows added: 0 in 0.00 seconds
+4818.194 (1) Table ndck_newsletter_sent: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter_sent.table.gz - 0.4 KB)
+4818.196 (1) Table ndck_newsletter_stats: Total expected rows (approximate): 0
+4818.197 (1) Table ndck_newsletter_stats: Total rows added: 0 in 0.00 seconds
+4818.198 (1) Table ndck_newsletter_stats: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter_stats.table.gz - 0.4 KB)
+4818.201 (1) Table ndck_newsletter_user_logs: Total expected rows (approximate): 0
+4818.202 (1) Table ndck_newsletter_user_logs: Total rows added: 0 in 0.00 seconds
+4818.203 (1) Table ndck_newsletter_user_logs: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter_user_logs.table.gz - 0.3 KB)
+4818.205 (1) Table ndck_nf3_action_meta: Total expected rows (approximate): 322
+4818.209 (1) Table ndck_nf3_action_meta: Total rows added: 341 in 0.00 seconds
+4818.210 (1) Table ndck_nf3_action_meta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_action_meta.table.gz - 3 KB)
+4818.212 (1) Table ndck_nf3_actions: Total expected rows (approximate): 17
+4818.214 (1) Table ndck_nf3_actions: Total rows added: 17 in 0.00 seconds
+4818.215 (1) Table ndck_nf3_actions: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_actions.table.gz - 0.6 KB)
+4818.217 (1) Table ndck_nf3_field_meta: Total expected rows (approximate): 1506
+4818.228 (1) Table ndck_nf3_field_meta: Total rows added: 1448 in 0.01 seconds
+4818.230 (1) Table ndck_nf3_field_meta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_field_meta.table.gz - 11.8 KB)
+4818.233 (1) Table ndck_nf3_fields: Total expected rows (approximate): 61
+4818.234 (1) Table ndck_nf3_fields: Total rows added: 61 in 0.00 seconds
+4818.235 (1) Table ndck_nf3_fields: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_fields.table.gz - 1.8 KB)
+4818.238 (1) Table ndck_nf3_form_meta: Total expected rows (approximate): 243
+4818.240 (1) Table ndck_nf3_form_meta: Total rows added: 261 in 0.00 seconds
+4818.241 (1) Table ndck_nf3_form_meta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_form_meta.table.gz - 2.9 KB)
+4818.243 (1) Table ndck_nf3_forms: Total expected rows (approximate): 5
+4818.245 (1) Table ndck_nf3_forms: Total rows added: 5 in 0.00 seconds
+4818.245 (1) Table ndck_nf3_forms: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_forms.table.gz - 0.5 KB)
+4818.248 (1) Table ndck_nf3_object_meta: Total expected rows (approximate): 0
+4818.249 (1) Table ndck_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+4818.249 (1) Table ndck_nf3_object_meta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_object_meta.table.gz - 0.3 KB)
+4818.252 (1) Table ndck_nf3_objects: Total expected rows (approximate): 0
+4818.253 (1) Table ndck_nf3_objects: Total rows added: 0 in 0.00 seconds
+4818.253 (1) Table ndck_nf3_objects: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_objects.table.gz - 0.3 KB)
+4818.256 (1) Table ndck_nf3_relationships: Total expected rows (approximate): 0
+4818.257 (1) Table ndck_nf3_relationships: Total rows added: 0 in 0.00 seconds
+4818.258 (1) Table ndck_nf3_relationships: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_relationships.table.gz - 0.3 KB)
+4818.261 (1) Table ndck_revslider_css: Total expected rows (approximate): 109
+4818.267 (1) Table ndck_revslider_css: Total rows added: 109 in 0.01 seconds
+4818.267 (1) Table ndck_revslider_css: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_css.table.gz - 4.9 KB)
+4818.270 (1) Table ndck_revslider_layer_animations: Total expected rows (approximate): 0
+4818.272 (1) Table ndck_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+4818.272 (1) Table ndck_revslider_layer_animations: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_layer_animations.table.gz - 0.3 KB)
+4818.275 (1) Table ndck_revslider_navigations: Total expected rows (approximate): 0
+4818.276 (1) Table ndck_revslider_navigations: Total rows added: 0 in 0.00 seconds
+4818.277 (1) Table ndck_revslider_navigations: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_navigations.table.gz - 0.3 KB)
+4818.279 (1) Table ndck_revslider_sliders: Total expected rows (approximate): 3
+4818.282 (1) Table ndck_revslider_sliders: Total rows added: 3 in 0.00 seconds
+4818.283 (1) Table ndck_revslider_sliders: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_sliders.table.gz - 3.8 KB)
+4818.285 (1) Table ndck_revslider_slides: Total expected rows (approximate): 5
+4818.296 (1) Table ndck_revslider_slides: Total rows added: 5 in 0.01 seconds
+4818.297 (1) Table ndck_revslider_slides: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_slides.table.gz - 13.4 KB)
+4818.299 (1) Table ndck_revslider_static_slides: Total expected rows (approximate): 0
+4818.301 (1) Table ndck_revslider_static_slides: Total rows added: 1 in 0.00 seconds
+4818.301 (1) Table ndck_revslider_static_slides: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_static_slides.table.gz - 0.4 KB)
+4818.304 (1) Table ndck_smush_dir_images: Total expected rows (approximate): 0
+4818.305 (1) Table ndck_smush_dir_images: Total rows added: 0 in 0.00 seconds
+4818.306 (1) Table ndck_smush_dir_images: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_smush_dir_images.table.gz - 0.4 KB)
+4818.309 (1) Table ndck_wc_download_log: Total expected rows (approximate): 0
+4818.310 (1) Table ndck_wc_download_log: Total rows added: 0 in 0.00 seconds
+4818.310 (1) Table ndck_wc_download_log: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wc_download_log.table.gz - 0.4 KB)
+4818.313 (1) Table ndck_wc_webhooks: Total expected rows (approximate): 0
+4818.314 (1) Table ndck_wc_webhooks: Total rows added: 0 in 0.00 seconds
+4818.315 (1) Table ndck_wc_webhooks: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wc_webhooks.table.gz - 0.5 KB)
+4818.318 (1) Table ndck_wfblockediplog: Total expected rows (approximate): 35
+4818.319 (1) Table ndck_wfblockediplog: Total rows added: 35 in 0.00 seconds
+4818.319 (1) Table ndck_wfblockediplog: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfblockediplog.table.gz - 0.7 KB)
+4818.321 (1) Table ndck_wfblocks7: Total expected rows (approximate): 0
+4818.322 (1) Table ndck_wfblocks7: Total rows added: 0 in 0.00 seconds
+4818.323 (1) Table ndck_wfblocks7: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfblocks7.table.gz - 0.4 KB)
+4818.325 (1) Table ndck_wfconfig: Total expected rows (approximate): 255
+4818.347 (1) Table ndck_wfconfig: Total rows added: 255 in 0.02 seconds
+4818.348 (1) Table ndck_wfconfig: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfconfig.table.gz - 360.2 KB)
+4818.351 (1) Table ndck_wfcrawlers: Total expected rows (approximate): 1
+4818.353 (1) Table ndck_wfcrawlers: Total rows added: 1 in 0.00 seconds
+4818.353 (1) Table ndck_wfcrawlers: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfcrawlers.table.gz - 0.4 KB)
+4818.357 (1) Table ndck_wffilechanges: Total expected rows (approximate): 0
+4818.358 (1) Table ndck_wffilechanges: Total rows added: 0 in 0.00 seconds
+4818.359 (1) Table ndck_wffilechanges: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wffilechanges.table.gz - 0.3 KB)
+4818.362 (1) Table ndck_wffilemods: Total expected rows (approximate): 11693
+4818.566 (1) Table ndck_wffilemods: Total rows added: 11693 in 0.20 seconds
+4818.567 (1) Table ndck_wffilemods: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wffilemods.table.gz - 914.9 KB)
+4818.570 (1) Table ndck_wfhits: Total expected rows (approximate): 88
+4818.573 (1) Table ndck_wfhits: Total rows added: 88 in 0.00 seconds
+4818.573 (1) Table ndck_wfhits: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfhits.table.gz - 3.1 KB)
+4818.576 (1) Table ndck_wfhoover: Total expected rows (approximate): 0
+4818.577 (1) Table ndck_wfhoover: Total rows added: 0 in 0.00 seconds
+4818.578 (1) Table ndck_wfhoover: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfhoover.table.gz - 0.3 KB)
+4818.581 (1) Table ndck_wfissues: Total expected rows (approximate): 15
+4818.583 (1) Table ndck_wfissues: Total rows added: 15 in 0.00 seconds
+4818.584 (1) Table ndck_wfissues: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfissues.table.gz - 4.4 KB)
+4818.586 (1) Table ndck_wfknownfilelist: Total expected rows (approximate): 11693
+4818.647 (1) Table ndck_wfknownfilelist: Total rows added: 11693 in 0.06 seconds
+4818.648 (1) Table ndck_wfknownfilelist: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfknownfilelist.table.gz - 116.7 KB)
+4818.650 (1) Table ndck_wflivetraffichuman: Total expected rows (approximate): 0
+4818.651 (1) Table ndck_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+4818.652 (1) Table ndck_wflivetraffichuman: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wflivetraffichuman.table.gz - 0.3 KB)
+4818.655 (1) Table ndck_wflocs: Total expected rows (approximate): 0
+4818.656 (1) Table ndck_wflocs: Total rows added: 0 in 0.00 seconds
+4818.656 (1) Table ndck_wflocs: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wflocs.table.gz - 0.4 KB)
+4818.659 (1) Table ndck_wflogins: Total expected rows (approximate): 568
+4818.666 (1) Table ndck_wflogins: Total rows added: 568 in 0.01 seconds
+4818.667 (1) Table ndck_wflogins: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wflogins.table.gz - 13.8 KB)
+4818.671 (1) Table ndck_wfls_2fa_secrets: Total expected rows (approximate): 0
+4818.673 (1) Table ndck_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+4818.673 (1) Table ndck_wfls_2fa_secrets: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfls_2fa_secrets.table.gz - 0.4 KB)
+4818.676 (1) Table ndck_wfls_settings: Total expected rows (approximate): 15
+4818.677 (1) Table ndck_wfls_settings: Total rows added: 17 in 0.00 seconds
+4818.678 (1) Table ndck_wfls_settings: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfls_settings.table.gz - 0.7 KB)
+4818.680 (1) Table ndck_wfnotifications: Total expected rows (approximate): 5
+4818.682 (1) Table ndck_wfnotifications: Total rows added: 5 in 0.00 seconds
+4818.682 (1) Table ndck_wfnotifications: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfnotifications.table.gz - 0.6 KB)
+4818.685 (1) Table ndck_wfpendingissues: Total expected rows (approximate): 0
+4818.686 (1) Table ndck_wfpendingissues: Total rows added: 0 in 0.00 seconds
+4818.686 (1) Table ndck_wfpendingissues: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfpendingissues.table.gz - 0.4 KB)
+4818.689 (1) Table ndck_wfreversecache: Total expected rows (approximate): 1
+4818.690 (1) Table ndck_wfreversecache: Total rows added: 1 in 0.00 seconds
+4818.690 (1) Table ndck_wfreversecache: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfreversecache.table.gz - 0.4 KB)
+4818.693 (1) Table ndck_wfsnipcache: Total expected rows (approximate): 0
+4818.694 (1) Table ndck_wfsnipcache: Total rows added: 0 in 0.00 seconds
+4818.695 (1) Table ndck_wfsnipcache: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfsnipcache.table.gz - 0.4 KB)
+4818.697 (1) Table ndck_wfstatus: Total expected rows (approximate): 1234
+4818.708 (1) Table ndck_wfstatus: Total rows added: 1234 in 0.01 seconds
+4818.709 (1) Table ndck_wfstatus: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfstatus.table.gz - 20.8 KB)
+4818.712 (1) Table ndck_wftrafficrates: Total expected rows (approximate): 0
+4818.713 (1) Table ndck_wftrafficrates: Total rows added: 0 in 0.00 seconds
+4818.714 (1) Table ndck_wftrafficrates: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wftrafficrates.table.gz - 0.3 KB)
+4818.716 (1) Table ndck_woocommerce_api_keys: Total expected rows (approximate): 0
+4818.718 (1) Table ndck_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+4818.718 (1) Table ndck_woocommerce_api_keys: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_api_keys.table.gz - 0.4 KB)
+4818.721 (1) Table ndck_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+4818.722 (1) Table ndck_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+4818.722 (1) Table ndck_woocommerce_attribute_taxonomies: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+4818.725 (1) Table ndck_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+4818.726 (1) Table ndck_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+4818.726 (1) Table ndck_woocommerce_downloadable_product_permissions: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+4818.729 (1) Table ndck_woocommerce_log: Total expected rows (approximate): 0
+4818.730 (1) Table ndck_woocommerce_log: Total rows added: 0 in 0.00 seconds
+4818.731 (1) Table ndck_woocommerce_log: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_log.table.gz - 0.4 KB)
+4818.733 (1) Table ndck_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+4818.734 (1) Table ndck_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+4818.735 (1) Table ndck_woocommerce_order_itemmeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+4818.737 (1) Table ndck_woocommerce_order_items: Total expected rows (approximate): 0
+4818.739 (1) Table ndck_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+4818.739 (1) Table ndck_woocommerce_order_items: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_order_items.table.gz - 0.4 KB)
+4818.742 (1) Table ndck_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+4818.743 (1) Table ndck_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+4818.743 (1) Table ndck_woocommerce_payment_tokenmeta: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+4818.746 (1) Table ndck_woocommerce_payment_tokens: Total expected rows (approximate): 0
+4818.747 (1) Table ndck_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+4818.747 (1) Table ndck_woocommerce_payment_tokens: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_payment_tokens.table.gz - 0.4 KB)
+4818.750 (1) Table ndck_woocommerce_sessions: Total expected rows (approximate): 1
+4818.752 (1) Table ndck_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+4818.752 (1) Table ndck_woocommerce_sessions: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_sessions.table.gz - 1 KB)
+4818.755 (1) Table ndck_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+4818.756 (1) Table ndck_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+4818.757 (1) Table ndck_woocommerce_shipping_zone_locations: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+4818.759 (1) Table ndck_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+4818.760 (1) Table ndck_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+4818.761 (1) Table ndck_woocommerce_shipping_zone_methods: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+4818.763 (1) Table ndck_woocommerce_shipping_zones: Total expected rows (approximate): 0
+4818.764 (1) Table ndck_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+4818.765 (1) Table ndck_woocommerce_shipping_zones: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_shipping_zones.table.gz - 0.3 KB)
+4818.767 (1) Table ndck_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+4818.769 (1) Table ndck_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+4818.769 (1) Table ndck_woocommerce_tax_rate_locations: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+4818.772 (1) Table ndck_woocommerce_tax_rates: Total expected rows (approximate): 0
+4818.773 (1) Table ndck_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+4818.774 (1) Table ndck_woocommerce_tax_rates: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_tax_rates.table.gz - 0.4 KB)
+4818.776 (1) Table ndck_wppusher_packages: Total expected rows (approximate): 0
+4818.778 (1) Table ndck_wppusher_packages: Total rows added: 1 in 0.00 seconds
+4818.778 (1) Table ndck_wppusher_packages: finishing file (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wppusher_packages.table.gz - 0.4 KB)
+4818.780 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_options.table.gz (1/89): adding to final database dump
+4818.817 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_users.table.gz (2/89): adding to final database dump
+4818.817 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_usermeta.table.gz (3/89): adding to final database dump
+4818.819 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_commentmeta.table.gz (4/89): adding to final database dump
+4818.820 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_comments.table.gz (5/89): adding to final database dump
+4818.820 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_links.table.gz (6/89): adding to final database dump
+4818.821 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_postmeta.table.gz (7/89): adding to final database dump
+4818.834 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_posts.table.gz (8/89): adding to final database dump
+4818.899 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_term_relationships.table.gz (9/89): adding to final database dump
+4818.900 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_term_taxonomy.table.gz (10/89): adding to final database dump
+4818.900 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_termmeta.table.gz (11/89): adding to final database dump
+4818.901 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_terms.table.gz (12/89): adding to final database dump
+4818.902 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_charitable_campaign_donations.table.gz (13/89): adding to final database dump
+4818.903 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_charitable_donors.table.gz (14/89): adding to final database dump
+4818.904 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_datalist.table.gz (15/89): adding to final database dump
+4818.905 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_bookings.table.gz (16/89): adding to final database dump
+4818.906 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_events.table.gz (17/89): adding to final database dump
+4818.906 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_locations.table.gz (18/89): adding to final database dump
+4818.907 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_meta.table.gz (19/89): adding to final database dump
+4818.907 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_tickets.table.gz (20/89): adding to final database dump
+4818.908 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_em_tickets_bookings.table.gz (21/89): adding to final database dump
+4818.908 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_customermeta.table.gz (22/89): adding to final database dump
+4818.909 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_customers.table.gz (23/89): adding to final database dump
+4818.909 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_donormeta.table.gz (24/89): adding to final database dump
+4818.910 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_donors.table.gz (25/89): adding to final database dump
+4818.910 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_formmeta.table.gz (26/89): adding to final database dump
+4818.913 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_logmeta.table.gz (27/89): adding to final database dump
+4818.913 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_logs.table.gz (28/89): adding to final database dump
+4818.914 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_paymentmeta.table.gz (29/89): adding to final database dump
+4818.915 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_give_sequential_ordering.table.gz (30/89): adding to final database dump
+4818.916 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter.table.gz (31/89): adding to final database dump
+4818.916 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter_emails.table.gz (32/89): adding to final database dump
+4818.917 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter_sent.table.gz (33/89): adding to final database dump
+4818.918 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter_stats.table.gz (34/89): adding to final database dump
+4818.918 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_newsletter_user_logs.table.gz (35/89): adding to final database dump
+4818.919 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_action_meta.table.gz (36/89): adding to final database dump
+4818.920 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_actions.table.gz (37/89): adding to final database dump
+4818.920 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_field_meta.table.gz (38/89): adding to final database dump
+4818.924 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_fields.table.gz (39/89): adding to final database dump
+4818.925 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_form_meta.table.gz (40/89): adding to final database dump
+4818.926 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_forms.table.gz (41/89): adding to final database dump
+4818.926 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_object_meta.table.gz (42/89): adding to final database dump
+4818.927 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_objects.table.gz (43/89): adding to final database dump
+4818.927 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_nf3_relationships.table.gz (44/89): adding to final database dump
+4818.928 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_css.table.gz (45/89): adding to final database dump
+4818.930 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_layer_animations.table.gz (46/89): adding to final database dump
+4818.930 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_navigations.table.gz (47/89): adding to final database dump
+4818.931 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_sliders.table.gz (48/89): adding to final database dump
+4818.933 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_slides.table.gz (49/89): adding to final database dump
+4818.937 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_revslider_static_slides.table.gz (50/89): adding to final database dump
+4818.937 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_smush_dir_images.table.gz (51/89): adding to final database dump
+4818.938 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wc_download_log.table.gz (52/89): adding to final database dump
+4818.938 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wc_webhooks.table.gz (53/89): adding to final database dump
+4818.939 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfblockediplog.table.gz (54/89): adding to final database dump
+4818.939 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfblocks7.table.gz (55/89): adding to final database dump
+4818.940 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfconfig.table.gz (56/89): adding to final database dump
+4818.960 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfcrawlers.table.gz (57/89): adding to final database dump
+4818.960 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wffilechanges.table.gz (58/89): adding to final database dump
+4818.961 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wffilemods.table.gz (59/89): adding to final database dump
+4819.049 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfhits.table.gz (60/89): adding to final database dump
+4819.051 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfhoover.table.gz (61/89): adding to final database dump
+4819.058 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfissues.table.gz (62/89): adding to final database dump
+4819.059 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfknownfilelist.table.gz (63/89): adding to final database dump
+4819.088 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wflivetraffichuman.table.gz (64/89): adding to final database dump
+4819.103 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wflocs.table.gz (65/89): adding to final database dump
+4819.104 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wflogins.table.gz (66/89): adding to final database dump
+4819.107 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfls_2fa_secrets.table.gz (67/89): adding to final database dump
+4819.108 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfls_settings.table.gz (68/89): adding to final database dump
+4819.109 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfnotifications.table.gz (69/89): adding to final database dump
+4819.109 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfpendingissues.table.gz (70/89): adding to final database dump
+4819.110 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfreversecache.table.gz (71/89): adding to final database dump
+4819.110 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfsnipcache.table.gz (72/89): adding to final database dump
+4819.111 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wfstatus.table.gz (73/89): adding to final database dump
+4819.115 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wftrafficrates.table.gz (74/89): adding to final database dump
+4819.116 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_api_keys.table.gz (75/89): adding to final database dump
+4819.116 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_attribute_taxonomies.table.gz (76/89): adding to final database dump
+4819.117 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_downloadable_product_permissions.table.gz (77/89): adding to final database dump
+4819.118 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_log.table.gz (78/89): adding to final database dump
+4819.118 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_order_itemmeta.table.gz (79/89): adding to final database dump
+4819.119 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_order_items.table.gz (80/89): adding to final database dump
+4819.119 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_payment_tokenmeta.table.gz (81/89): adding to final database dump
+4819.120 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_payment_tokens.table.gz (82/89): adding to final database dump
+4819.120 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_sessions.table.gz (83/89): adding to final database dump
+4819.120 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_shipping_zone_locations.table.gz (84/89): adding to final database dump
+4819.121 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_shipping_zone_methods.table.gz (85/89): adding to final database dump
+4819.121 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_shipping_zones.table.gz (86/89): adding to final database dump
+4819.122 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_tax_rate_locations.table.gz (87/89): adding to final database dump
+4819.122 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_woocommerce_tax_rates.table.gz (88/89): adding to final database dump
+4819.123 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db-table-ndck_wppusher_packages.table.gz (89/89): adding to final database dump
+4819.125 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: finished writing out complete database file (1928 KB)
+4819.153 (1) Total database tables backed up: 89 (backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz, size: 1999178, sha256)
+4819.157 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4819.157 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4819.158 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4819.158 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+4819.159 (1) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+4819.159 (1) Saving backup history. Total backup size: 288.8 MB
+4819.161 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+4819.162 (1) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+4819.163 (1) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+4819.163 (1) Error message: No FTP settings were found
+4819.164 (1) An error condition has occurred for the first time during this job
+4819.165 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4819.166 (1) Number of backup sets in history: 3; groups (db): 1
+4819.166 (1) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+4819.167 (1) This backup set is the backup set just made, so will not be deleted.
+4819.167 (1) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+4819.167 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+4819.167 (1) Examining (for databases) backup set with group_id=0, nonce=95236f0085d9, datestamp=1598415019 (Aug 26 2020 04:10:19)
+4819.167 (1) 1598415019: db: this set includes a database (backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-db.gz); db count is now 2
+4819.167 (1) 1598415019: db: over retain limit (2); will delete this database
+4819.167 (1) Delete file: backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-db.gz, service=ftp
+4819.168 (1) Deleting local copy (backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-db.gz)
+4819.183 (1) Error message: No FTP settings were found
+4819.184 (1) FTP: Failure: we did not successfully log in with those credentials (host=).
+4819.185 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+4819.185 (1) Number of backup sets in history: 3; groups (files): 1
+4819.186 (1) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+4819.186 (1) This backup set is the backup set just made, so will not be deleted.
+4819.186 (1) This backup set is the backup set just made, so will not be deleted.
+4819.186 (1) This backup set is the backup set just made, so will not be deleted.
+4819.186 (1) This backup set is the backup set just made, so will not be deleted.
+4819.186 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+4819.187 (1) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+4819.187 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+4819.187 (1) Examining (for files) backup set with nonce=95236f0085d9, datestamp=1598415019 (Aug 26 2020 04:10:19)
+4819.187 (1) plugins: over retain limit (2); will delete this file entity
+4819.187 (1) themes: over retain limit (2); will delete this file entity
+4819.187 (1) uploads: over retain limit (2); will delete this file entity
+4819.187 (1) others: over retain limit (2); will delete this file entity
+4819.187 (1) Delete file: backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-plugins.zip, service=ftp
+4819.188 (1) Deleting local copy (backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-plugins.zip)
+4819.371 (1) Delete file: backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-themes.zip, service=ftp
+4819.372 (1) Deleting local copy (backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-themes.zip)
+4819.406 (1) Delete file: backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-uploads.zip, service=ftp
+4819.407 (1) Deleting local copy (backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-uploads.zip)
+4819.717 (1) Delete file: backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-others.zip, service=ftp
+4819.718 (1) Deleting local copy (backup_2020-08-26-1110_New_Dream_of_Cambodian_Children__95236f0085d9-others.zip)
+4819.731 (1) Error message: No FTP settings were found
+4819.732 (1) FTP: Failure: we did not successfully log in with those credentials (host=).
+4819.733 (1) This backup set is now empty; will remove from history
+4819.733 (1) Deleting log file (log.95236f0085d9.txt)
+4819.804 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4819.807 (1) Resume backup (d7891077bbed, 1): finish run
+4819.808 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4819.808 (1) No email will/can be sent - the user has not configured an email address.
+4819.809 (1) The backup has not finished; a resumption is scheduled
+8825.013 (2) Opened log file at time: Mon, 14 Sep 2020 18:20:52 +0000 on http://www.ndcco.org
+8825.014 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.5M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+8825.104 (2) Free space on disk containing Updraft's temporary directory: 114272.6 MB
+8825.107 (2) Backup run: resumption=2, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (8825s ago), job type=backup, previous check-in=129.6s
+8825.107 (2) Long time past since expected resumption time: approx expected=1600103947.1, now=1600107652.4, diff=3705.3
+8825.108 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+8825.109 (2) Scheduling a resumption (3) after 300 seconds (1600107952) in case this run gets aborted
+8825.126 (2) Checking if we have a zip executable available
+8825.127 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+8825.127 (2) Creation of backups of directories: already finished
+8825.128 (2) Saving backup status to database (elements: 8)
+8825.133 (2) Database dump (WordPress DB): Creation was completed already
+8825.135 (2) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+8825.135 (2) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+8825.136 (2) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+8825.136 (2) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+8825.137 (2) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+8825.137 (2) Saving backup history. Total backup size: 288.8 MB
+8825.139 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+8825.140 (2) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+8825.140 (2) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+8825.141 (2) Error message: No FTP settings were found
+8825.141 (2) An error condition has occurred for the first time during this job
+8825.142 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+8825.143 (2) Number of backup sets in history: 2; groups (db): 1
+8825.143 (2) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+8825.144 (2) This backup set is the backup set just made, so will not be deleted.
+8825.144 (2) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+8825.144 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+8825.144 (2) Number of backup sets in history: 2; groups (files): 1
+8825.144 (2) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+8825.145 (2) This backup set is the backup set just made, so will not be deleted.
+8825.145 (2) This backup set is the backup set just made, so will not be deleted.
+8825.145 (2) This backup set is the backup set just made, so will not be deleted.
+8825.145 (2) This backup set is the backup set just made, so will not be deleted.
+8825.145 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+8825.146 (2) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+8825.146 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+8825.146 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+8825.147 (2) Resume backup (d7891077bbed, 2): finish run
+8825.148 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+8825.149 (2) No email will/can be sent - the user has not configured an email address.
+8825.149 (2) The backup has not finished; a resumption is scheduled
+9832.547 (3) Opened log file at time: Mon, 14 Sep 2020 18:37:39 +0000 on http://www.ndcco.org
+9832.548 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.5M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+9832.650 (3) Free space on disk containing Updraft's temporary directory: 114228.1 MB
+9832.652 (3) Backup run: resumption=3, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (9833s ago), job type=backup
+9832.653 (3) Scheduling a resumption (4) after 300 seconds (1600108960) in case this run gets aborted
+9832.670 (3) Checking if we have a zip executable available
+9832.671 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+9832.671 (3) Creation of backups of directories: already finished
+9832.672 (3) Saving backup status to database (elements: 8)
+9832.676 (3) Database dump (WordPress DB): Creation was completed already
+9832.678 (3) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+9832.679 (3) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+9832.679 (3) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+9832.680 (3) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+9832.680 (3) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+9832.680 (3) Saving backup history. Total backup size: 288.8 MB
+9832.682 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+9832.683 (3) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+9832.683 (3) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+9832.683 (3) Error message: No FTP settings were found
+9832.684 (3) An error condition has occurred for the first time during this job
+9832.685 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+9832.685 (3) Number of backup sets in history: 2; groups (db): 1
+9832.686 (3) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+9832.686 (3) This backup set is the backup set just made, so will not be deleted.
+9832.686 (3) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+9832.686 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+9832.687 (3) Number of backup sets in history: 2; groups (files): 1
+9832.687 (3) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+9832.687 (3) This backup set is the backup set just made, so will not be deleted.
+9832.687 (3) This backup set is the backup set just made, so will not be deleted.
+9832.688 (3) This backup set is the backup set just made, so will not be deleted.
+9832.688 (3) This backup set is the backup set just made, so will not be deleted.
+9832.688 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+9832.688 (3) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+9832.688 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+9832.688 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+9832.690 (3) Resume backup (d7891077bbed, 3): finish run
+9832.690 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9832.691 (3) No email will/can be sent - the user has not configured an email address.
+9832.692 (3) The backup has not finished; a resumption is scheduled
+10534.773 (4) Opened log file at time: Mon, 14 Sep 2020 18:49:22 +0000 on http://www.ndcco.org
+10534.774 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.6M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+10534.822 (4) Free space on disk containing Updraft's temporary directory: 114138.3 MB
+10534.824 (4) Backup run: resumption=4, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (10535s ago), job type=backup
+10534.825 (4) Scheduling a resumption (5) after 300 seconds (1600109662) in case this run gets aborted
+10534.845 (4) Checking if we have a zip executable available
+10534.845 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+10534.846 (4) Creation of backups of directories: already finished
+10534.846 (4) Saving backup status to database (elements: 8)
+10534.851 (4) Database dump (WordPress DB): Creation was completed already
+10534.854 (4) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+10534.854 (4) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+10534.855 (4) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+10534.855 (4) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+10534.856 (4) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+10534.856 (4) Saving backup history. Total backup size: 288.8 MB
+10534.857 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+10534.859 (4) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+10534.859 (4) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+10534.860 (4) Error message: No FTP settings were found
+10534.860 (4) An error condition has occurred for the first time during this job
+10534.861 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+10534.862 (4) Number of backup sets in history: 2; groups (db): 1
+10534.863 (4) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+10534.863 (4) This backup set is the backup set just made, so will not be deleted.
+10534.863 (4) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+10534.863 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+10534.863 (4) Number of backup sets in history: 2; groups (files): 1
+10534.864 (4) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+10534.864 (4) This backup set is the backup set just made, so will not be deleted.
+10534.864 (4) This backup set is the backup set just made, so will not be deleted.
+10534.864 (4) This backup set is the backup set just made, so will not be deleted.
+10534.864 (4) This backup set is the backup set just made, so will not be deleted.
+10534.865 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+10534.865 (4) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+10534.865 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+10534.865 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+10534.867 (4) Resume backup (d7891077bbed, 4): finish run
+10534.867 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+10534.868 (4) No email will/can be sent - the user has not configured an email address.
+10534.869 (4) The backup has not finished; a resumption is scheduled
+11231.477 (5) Opened log file at time: Mon, 14 Sep 2020 19:00:58 +0000 on http://www.ndcco.org
+11231.477 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.6M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+11231.697 (5) Free space on disk containing Updraft's temporary directory: 113710.5 MB
+11231.699 (5) Backup run: resumption=5, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (11232s ago), job type=backup
+11231.701 (5) Scheduling a resumption (6) after 300 seconds (1600110359) in case this run gets aborted
+11231.719 (5) Checking if we have a zip executable available
+11231.720 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+11231.720 (5) Creation of backups of directories: already finished
+11231.721 (5) Saving backup status to database (elements: 8)
+11231.726 (5) Database dump (WordPress DB): Creation was completed already
+11231.728 (5) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+11231.729 (5) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+11231.729 (5) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+11231.729 (5) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+11231.730 (5) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+11231.730 (5) Saving backup history. Total backup size: 288.8 MB
+11231.732 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+11231.733 (5) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+11231.733 (5) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+11231.733 (5) Error message: No FTP settings were found
+11231.734 (5) An error condition has occurred for the first time during this job
+11231.735 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+11231.736 (5) Number of backup sets in history: 2; groups (db): 1
+11231.736 (5) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+11231.736 (5) This backup set is the backup set just made, so will not be deleted.
+11231.736 (5) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+11231.737 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+11231.737 (5) Number of backup sets in history: 2; groups (files): 1
+11231.737 (5) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+11231.737 (5) This backup set is the backup set just made, so will not be deleted.
+11231.738 (5) This backup set is the backup set just made, so will not be deleted.
+11231.738 (5) This backup set is the backup set just made, so will not be deleted.
+11231.738 (5) This backup set is the backup set just made, so will not be deleted.
+11231.738 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+11231.738 (5) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+11231.738 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+11231.738 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+11231.740 (5) Resume backup (d7891077bbed, 5): finish run
+11231.740 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+11231.741 (5) No email will/can be sent - the user has not configured an email address.
+11231.742 (5) The backup has not finished; a resumption is scheduled
+11728.162 (6) Opened log file at time: Mon, 14 Sep 2020 19:09:15 +0000 on https://www.ndcco.org
+11728.163 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.6M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+11728.211 (6) Free space on disk containing Updraft's temporary directory: 113683.1 MB
+11728.213 (6) Backup run: resumption=6, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (11728s ago), job type=backup
+11728.215 (6) Scheduling a resumption (7) after 300 seconds (1600110855) in case this run gets aborted
+11728.243 (6) Checking if we have a zip executable available
+11728.244 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+11728.245 (6) Creation of backups of directories: already finished
+11728.245 (6) Saving backup status to database (elements: 8)
+11728.252 (6) Database dump (WordPress DB): Creation was completed already
+11728.255 (6) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+11728.256 (6) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+11728.257 (6) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+11728.257 (6) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+11728.258 (6) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+11728.258 (6) Saving backup history. Total backup size: 288.8 MB
+11728.260 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+11728.261 (6) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+11728.262 (6) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+11728.263 (6) Error message: No FTP settings were found
+11728.263 (6) An error condition has occurred for the first time during this job
+11728.265 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+11728.266 (6) Number of backup sets in history: 2; groups (db): 1
+11728.266 (6) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+11728.266 (6) This backup set is the backup set just made, so will not be deleted.
+11728.266 (6) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+11728.266 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+11728.267 (6) Number of backup sets in history: 2; groups (files): 1
+11728.267 (6) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+11728.267 (6) This backup set is the backup set just made, so will not be deleted.
+11728.268 (6) This backup set is the backup set just made, so will not be deleted.
+11728.268 (6) This backup set is the backup set just made, so will not be deleted.
+11728.268 (6) This backup set is the backup set just made, so will not be deleted.
+11728.268 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+11728.268 (6) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+11728.268 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+11728.269 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+11728.270 (6) Resume backup (d7891077bbed, 6): finish run
+11728.271 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+11728.272 (6) No email will/can be sent - the user has not configured an email address.
+11728.272 (6) The backup has not finished; a resumption is scheduled
+14132.825 (7) Opened log file at time: Mon, 14 Sep 2020 19:49:20 +0000 on http://www.ndcco.org
+14132.826 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.6M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+14132.870 (7) Free space on disk containing Updraft's temporary directory: 114991.3 MB
+14132.872 (7) Backup run: resumption=7, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (14133s ago), job type=backup
+14132.872 (7) Long time past since expected resumption time: approx expected=1600110855.5, now=1600112960.2, diff=2104.7
+14132.873 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+14132.874 (7) Scheduling a resumption (8) after 300 seconds (1600113260) in case this run gets aborted
+14132.892 (7) Checking if we have a zip executable available
+14132.892 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+14132.892 (7) Creation of backups of directories: already finished
+14132.893 (7) Saving backup status to database (elements: 8)
+14132.898 (7) Database dump (WordPress DB): Creation was completed already
+14132.900 (7) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+14132.901 (7) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+14132.901 (7) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+14132.902 (7) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+14132.902 (7) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+14132.902 (7) Saving backup history. Total backup size: 288.8 MB
+14132.904 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+14132.905 (7) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+14132.905 (7) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+14132.906 (7) Error message: No FTP settings were found
+14132.906 (7) An error condition has occurred for the first time during this job
+14132.907 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14132.908 (7) Number of backup sets in history: 2; groups (db): 1
+14132.908 (7) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+14132.909 (7) This backup set is the backup set just made, so will not be deleted.
+14132.909 (7) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+14132.909 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+14132.909 (7) Number of backup sets in history: 2; groups (files): 1
+14132.910 (7) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+14132.910 (7) This backup set is the backup set just made, so will not be deleted.
+14132.910 (7) This backup set is the backup set just made, so will not be deleted.
+14132.910 (7) This backup set is the backup set just made, so will not be deleted.
+14132.910 (7) This backup set is the backup set just made, so will not be deleted.
+14132.910 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+14132.911 (7) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+14132.911 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+14132.911 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+14132.912 (7) Resume backup (d7891077bbed, 7): finish run
+14132.913 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+14132.914 (7) No email will/can be sent - the user has not configured an email address.
+14132.915 (7) The backup has not finished; a resumption is scheduled
+14876.856 (8) Opened log file at time: Mon, 14 Sep 2020 20:01:44 +0000 on https://www.ndcco.org
+14876.857 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.6M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+14876.982 (8) Free space on disk containing Updraft's temporary directory: 114971 MB
+14876.984 (8) Backup run: resumption=8, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (14877s ago), job type=backup
+14876.985 (8) Scheduling a resumption (9) after 300 seconds (1600114004) in case this run gets aborted
+14877.003 (8) Checking if we have a zip executable available
+14877.004 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+14877.004 (8) Creation of backups of directories: already finished
+14877.005 (8) Saving backup status to database (elements: 8)
+14877.010 (8) Database dump (WordPress DB): Creation was completed already
+14877.012 (8) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+14877.012 (8) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+14877.013 (8) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+14877.013 (8) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+14877.013 (8) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+14877.014 (8) Saving backup history. Total backup size: 288.8 MB
+14877.015 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+14877.016 (8) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+14877.016 (8) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+14877.017 (8) Error message: No FTP settings were found
+14877.017 (8) An error condition has occurred for the first time during this job
+14877.018 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14877.019 (8) Number of backup sets in history: 2; groups (db): 1
+14877.019 (8) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+14877.020 (8) This backup set is the backup set just made, so will not be deleted.
+14877.020 (8) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+14877.020 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+14877.020 (8) Number of backup sets in history: 2; groups (files): 1
+14877.021 (8) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+14877.021 (8) This backup set is the backup set just made, so will not be deleted.
+14877.021 (8) This backup set is the backup set just made, so will not be deleted.
+14877.021 (8) This backup set is the backup set just made, so will not be deleted.
+14877.021 (8) This backup set is the backup set just made, so will not be deleted.
+14877.021 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+14877.022 (8) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+14877.022 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+14877.022 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+14877.023 (8) Resume backup (d7891077bbed, 8): finish run
+14877.024 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+14877.025 (8) No email will/can be sent - the user has not configured an email address.
+14877.025 (8) The backup has not finished; a resumption is scheduled
+15230.061 (9) Opened log file at time: Mon, 14 Sep 2020 20:07:37 +0000 on http://www.ndcco.org
+15230.062 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 4.9.15 PHP: 7.3.20 (litespeed, Linux hulk.o2switch.net 4.18.0-147.3.1.el7h.lve.1.x86_64 #1 SMP Wed Feb 12 07:03:11 EST 2020 x86_64) MySQL: 10.3.24-MariaDB WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 17.6M | 20M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+15230.109 (9) Free space on disk containing Updraft's temporary directory: 114882.4 MB
+15230.111 (9) Backup run: resumption=9, nonce=d7891077bbed, file_nonce=d7891077bbed begun at=1600098827 (15230s ago), job type=backup
+15230.112 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 1) - will not schedule a further attempt until we see something useful happening this time
+15230.113 (9) Scheduling a resumption (10) after 300 seconds (1600114357); but the job will then be aborted unless something happens this time
+15230.130 (9) Creation of backups of directories: already finished
+15230.131 (9) Saving backup status to database (elements: 8)
+15230.135 (9) Database dump (WordPress DB): Creation was completed already
+15230.138 (9) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+15230.138 (9) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+15230.138 (9) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+15230.139 (9) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-others.zip: others: This file has not yet been successfully uploaded: will queue
+15230.139 (9) backup_2020-09-14-2253_New_Dream_of_Cambodian_Children__d7891077bbed-db.gz: db: This file has not yet been successfully uploaded: will queue
+15230.140 (9) Saving backup history. Total backup size: 288.8 MB
+15230.141 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+15230.142 (9) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+15230.142 (9) Beginning dispatch of backup to remote (ftp) (instance identifier s-ba220def6ca783c990d94b08a73a56ee)
+15230.143 (9) Error message: No FTP settings were found
+15230.143 (9) An error condition has occurred for the first time during this job
+15230.144 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15230.145 (9) Number of backup sets in history: 2; groups (db): 1
+15230.145 (9) Examining (for databases) backup set with group_id=0, nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+15230.145 (9) This backup set is the backup set just made, so will not be deleted.
+15230.145 (9) Examining (for databases) backup set with group_id=0, nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+15230.145 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+15230.146 (9) Number of backup sets in history: 2; groups (files): 1
+15230.146 (9) Examining (for files) backup set with nonce=d7891077bbed, datestamp=1600098827 (Sep 14 2020 15:53:47)
+15230.146 (9) This backup set is the backup set just made, so will not be deleted.
+15230.147 (9) This backup set is the backup set just made, so will not be deleted.
+15230.147 (9) This backup set is the backup set just made, so will not be deleted.
+15230.147 (9) This backup set is the backup set just made, so will not be deleted.
+15230.147 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+15230.147 (9) Examining (for files) backup set with nonce=9d916dfef802, datestamp=1599020728 (Sep 02 2020 04:25:28)
+15230.147 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+15230.147 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+15230.149 (9) Resume backup (d7891077bbed, 9): finish run
+15230.149 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+15230.150 (9) No email will/can be sent - the user has not configured an email address.
+15230.150 (9) The backup attempt has finished, apparently unsuccessfully

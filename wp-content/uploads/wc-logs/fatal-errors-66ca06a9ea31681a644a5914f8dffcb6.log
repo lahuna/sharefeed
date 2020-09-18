@@ -1,0 +1,98 @@
+2018-03-07T03:14:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T03:16:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T03:21:31+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:13+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:09:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-07T14:25:33+00:00 CRITICAL Uncaught Exception: expecting color: failed at `color: lighten($fw-top-menu-color, 70%);` C:\MAMP\htdocs\wordpress\alone-event/wp-content/themes/alone/assets/style-scss/headers/_menu-style.scss on line 333 in C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php:4066
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(2506): scss_parser->throwParseError('expecting color', 7798)
+#1 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(1845): scssc->throwError('expecting color')
+#2 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(2199): scssc->assertColor(Array)
+#3 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(1732): scssc->lib_lighten(Array, Object(scssc))
+#4 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(1034): 
+
+2018-03-08T06:41:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T06:42:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T06:42:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:42:05+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:42:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:42:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:42:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:42:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:42:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:42:31+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:42:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:31+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:46:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T07:47:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-08T08:05:16+00:00 CRITICAL Uncaught Exception: expecting color: failed at `background: fade_out($fw-header-sticky-color, $fw-header-sticky-opacity) !important;` C:\MAMP\htdocs\wordpress\alone-event/wp-content/themes/alone/assets/style-scss/headers/_header-sticky.scss on line 11 in C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php:4066
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(2506): scss_parser->throwParseError('expecting color', 212)
+#1 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(1845): scssc->throwError('expecting color')
+#2 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(2269): scssc->assertColor(Array)
+#3 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-includes\includes\scss.inc.php(2279): scssc->lib_transparentize(Array)
+#4 C:\MAMP\htdocs\wordpress\alone-event\wp-content\themes\alone\theme-i
+
+2018-03-08T08:05:32+00:00 CRITICAL Uncaught Exception: parse error: failed at `$fw-header-sticky-menu-item-color-lvl1: ; $fw-header-sticky-menu-item-hover-color-lvl1: #fe5722; $fw-title-bar-font-family: 'Montserrat'; $fw-title-bar-font-size: 32px; $fw-title-bar-height: 38px; $fw-title-bar-letter-spacing: -1.5px; $fw-title-bar-color: #ffffff; $fw-title-bar-font-style: normal; $fw-title-bar-font-weight: 700; $fw-title-bar-description-font-family: 'Montserrat'; $fw-title-bar-description-font-size: 55px; $fw-title-bar-description-height: 65px; $fw-title-bar-description-letter-spacing: 0px; $fw-title-bar-description-font-style: normal; $fw-title-bar-description-font-weight: 700; $breadcrumbs-typographyfont-family: 'Quattrocento Sans'; $breadcrumbs-typographyfont-font-size: 13px; $breadcrumbs-typographyfont-height: 19px; $breadcrumbs-typographyfont-letter-spacing: 2px; $breadcrumbs-typographyfont-color: #ffffff; $breadcrumbs-typographyfont-font-style: normal; $breadcrumbs-typographyfont-font-weight: 400; $breadcrumbs-typographyfont-text-uppercase: u
+
+2018-03-09T06:24:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-09T06:24:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-09T07:51:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
