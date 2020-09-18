@@ -734,7 +734,7 @@
 * Major performance improvements
 * [BC] Simplifying Guzzle\Common\Collection.  Please check to see if you are using features that are now deprecated.
 * [BC] Using a custom validation system that allows a flyweight implementation for much faster validation. No longer using Symfony2 Validation component.
-* [BC] No longer supporting "{{ }}" for injecting into command or UriTemplates.  Use "{}"
+* [BC] No longer supporting "" for injecting into command or UriTemplates.  Use "{}"
 * Added the ability to passed parameters to all requests created by a client
 * Added callback functionality to the ExponentialBackoffPlugin
 * Using microtime in ExponentialBackoffPlugin to allow more granular backoff strategies.
